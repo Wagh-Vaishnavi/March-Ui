@@ -1,0 +1,155 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container
+{
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+}
+.main-header-div 
+{
+    width: 100%;
+    height: 60px;
+
+}
+.main-header-div.logo
+{
+    width: 49%;
+    height: 60px;
+   background-color: brown;
+    float: right;
+    border-radius: 15px;
+    -webkit-border-radious : 15px;
+    -moz-border-radious: 15px;
+    -ms-border-radus: 15px;
+    -o-border-radious:15px;
+
+}
+.logo h1
+{
+    color: black;
+    width: 49%;
+    height: 60px;
+    float: left;
+    border-radius: 15px;
+    background-color: gray;
+    padding: 5px;
+    
+}
+.main-header-div .menu
+{
+    width: 50%;
+    height: 60px;
+    background-color: gray;
+    float: right;
+    padding-top: 15px;
+    border-radius: 15px;
+    -webkit-border-radious : 15px;
+    -moz-border-radious: 15px;
+    -ms-border-radus: 15px;
+    -o-border-radious:15px;
+
+}
+.menu a
+{
+    color: black;
+    padding: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.slider
+{
+    width: 100%;
+    min-height: 300px;
+    margin: 5px;
+}
+
+
+
+.con .answer
+{
+    text-align: justify;
+    padding: 10px;
+    float: left;
+    
+}
+.con .header-text h2
+{
+    padding: 10px;
+    color: brown;
+    float: left;
+} 
+.slider img
+{
+    width: 100%;
+    height: 100%;
+}
+.main-con {
+    width: 100%;
+    float: left;
+    min-height: 300px;
+}
+
+.main-con .sidebar
+{
+    width: 20%;
+    min-height: 560px;
+    background-color: gray;
+    float: left;
+}
+
+.main-con .con 
+{
+    width: 78%;
+    min-height: 300px;
+    float: right;
+}
+
+.con .answer
+{
+    text-align: justify;
+    padding: 10px;
+    clear: both;
+}
+
+.con .header-text h2
+ {
+    padding: 10px;
+    color: brown;
+    clear: both;
+}
+
+.clearfix::after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.footer
+{
+    width: 100%;
+    height: 60px;
+    background-color:grey;
+    color:orchid;
+    margin-top: 600px;
+    border-radius: 15px;
+
+}
+.clearfix::after
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+.main-text
+{
+    display: flex
+}
